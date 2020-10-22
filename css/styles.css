@@ -136,24 +136,32 @@ p{
     padding: 3% 2%;
 }
 
-/* Contact Section */
+/* Call To Action Section */
 
 #cta{
-    background-color: #ef8172;
-    text-align: center;
+    background-color: #ff4c68;
+    text-align: center;    
+    color: white;    
+    padding: 7% 15%;
 }
 
-#cta h3{
-    color: white;
-    padding-top: 3%;
+.cta-heading{
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 /* Footer Section */
 
 #footer{
-    background-color: #ef8172;
+    background-color: white;
     text-align: center;
-    padding-bottom: 3%;
+    padding: 7% 15%;
+    color: black;
+}
+
+.social-icon{
+    margin: 20px 10px;
 }
 
 @media (max-width: 1028px){
