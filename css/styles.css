@@ -155,3 +155,15 @@ p{
     text-align: center;
     padding-bottom: 3%;
 }
+
+@media (max-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
