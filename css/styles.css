@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{    
@@ -58,17 +58,22 @@ p{
     margin: 5% 3% 5% 0;
 }
 
-/* Title image */
+/* Title Image */
 
 .title-img{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features Section */
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    width: 100%;
 }
 
 .featured-box{
@@ -88,7 +93,7 @@ p{
     color: #ff4c68;
 }
 
-/* Testimonial section */
+/* Testimonial Section */
 
 #testimonials{
     
@@ -107,7 +112,7 @@ p{
     padding: 7% 15%;
 }
 
-/* Press section */
+/* Press Section */
 
 #press{
     background-color: #ef8172;
@@ -129,4 +134,24 @@ p{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+/* Contact Section */
+
+#cta{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+#cta h3{
+    color: white;
+    padding-top: 3%;
+}
+
+/* Footer Section */
+
+#footer{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
 }
